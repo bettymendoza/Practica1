@@ -1,7 +1,7 @@
 #Nombre: Betty Mendoza Chuquiruna 20150497B
 #Respuesta N3:
  
-#a)El c骴igo muestra el vector:sexo y partido.
+#a)El c贸digo muestra el vector:sexo y partido.
 
  sexo=c("F","M","M","M","F","F","F","M","M","M","M","F","M","F","F","F","M","M","M","M")
  partido=c("L","N","N","L","N","V","N","N","V","O","V","L","N","N","L","L","N","N","L","O")
@@ -55,7 +55,7 @@ $Masculino
 Nacional  Laboral    Verde    Maori     Otro 
        6        2        2        0        2 
 
-#C)El c骴igo muestra el uso de la funci髇 tapply:
+#C)El c贸digo muestra el uso de la funci贸n tapply:
 
 tapply(partido,sexo,table)[2]
 $`Masculino
@@ -71,7 +71,7 @@ $`Nacional
 
 
  
-#d)El c骴igo muestra el uso de la funcion tapply:
+#d)El c贸digo muestra el uso de la funcion tapply:
 sexo=factor(c("F","M","M","M","F","F","F","M","M","M","M","F","M","F","F","F","M","M","M","M","M","M","F","F","F","M"),levels=c("F","M"),labels=c("Femenino","Masculino"))
 sexo
  [1] Femenino  Masculino Masculino Masculino Femenino  Femenino  Femenino  Masculino Masculino Masculino Masculino Femenino  Masculino Femenino  Femenino  Femenino 
